@@ -1,0 +1,71 @@
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #333;
+  }
+  
+  /* Conteneur principal avec 3 colonnes */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  /* Section principale */
+  main {
+    flex: 2; /* Plus grand espace pour les produits */
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Panier */
+  aside {
+    flex: 1;
+    background: #ffe0b2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Réseaux sociaux */
+  .social-media {
+    flex: 1;
+    background: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .social-media h2 {
+    margin-bottom: 20px;
+  }
+  
+  .social-media .icons a {
+    margin: 0 10px;
+  }
+  
+  .social-media img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: transform 0.2s;
+  }
+  
+  .social-media img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Pied de page */
+  footer {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
